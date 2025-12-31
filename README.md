@@ -103,3 +103,8 @@ Use o token JWT retornado para acessar as demais rotas (`Authorization: Bearer .
                                       
 
 
+## License
+Este projeto está sob a MIT License.  
+Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
