@@ -102,8 +102,4 @@ Use o token JWT retornado para acessar as demais rotas (`Authorization: Bearer .
                                           <td align="center"><a href="https://github.com/Dantas061"><img style="border-radius: 50%;" src="https://github.com/Dantas061.png" width="100px;" alt=""/><br /><sub><b>Dantas </b></sub></a><br /><a href="https://github.com/Dantas061" title="Rocketseat">Frontend Developer</a></td>
                                       
 
-## License
-Este projeto está sob a MIT License.  
-Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
