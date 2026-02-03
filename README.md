@@ -3,7 +3,7 @@
 
 
 
-Projeto acadêmico (PIM IV) em C# / ASP.NET Core. A API expõe os recursos do hortifruti para ser consumida pelo front Angular (próximas sprints).
+## Projeto acadêmico (PIM IV) em C# / ASP.NET Core. A API expõe os recursos do hortifruti para ser consumida pelo front Angular (próximas sprints).
 
 ## Estrutura
 - `api/Hortifruti.Api` – API ASP.NET Core, EF Core e autenticação JWT.
