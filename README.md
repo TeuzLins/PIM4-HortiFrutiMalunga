@@ -5,6 +5,68 @@
 
 ## Projeto acadêmico (PIM IV) em C# / ASP.NET Core. A API expõe os recursos do hortifruti para ser consumida pelo front Angular (próximas sprints).
 
+## Diagrama de Classes
+O diagrama abaixo representa o modelo de domínio do sistema, construído a partir dos casos de uso (cadastros, vendas, estoque, validade e relatórios).
+<img width="1536" height="1024" alt="diagrama-de-classe" src="https://github.com/user-attachments/assets/ba25a72b-d139-4467-85e0-99967c460a1c" />
+
+
+Ele descreve as principais entidades da aplicação e seus relacionamentos.
+
+## Principais Entidades
+- Usuario
+Representa os usuários do sistema (Admin, Gerente, Estoquista, Caixa).
+Usado para autenticação e auditoria das operações.
+
+- Categoria
+Agrupa os produtos (ex: Frutas, Hortaliças).
+
+- Produto
+Contém informações comerciais e de estoque:
+- Preço
+- Unidade de medida
+- Estoque mínimo
+- Vínculo com categoria
+
+- Cliente
+Utilizado no registro das vendas.
+
+- Venda
+Representa uma operação de venda realizada no sistema.
+Possui data, status e valor total.
+
+- ItemVenda
+Relaciona a venda aos produtos vendidos, contendo:
+- Quantidade
+- Preço unitário
+- Subtotal
+
+- MovimentacaoEstoque
+Registra todas as alterações no estoque:
+- Entrada
+- Saída por venda
+- Baixa manual
+- Ajuste
+
+- AlertaValidade
+Representa os alertas automáticos de produtos próximos do vencimento.
+
+- RelatorioVendas
+Modelo lógico para consolidação de dados estatísticos (faturamento e total de vendas).
+
+## Relação com os Endpoints
+
+| Classe              | Endpoints Relacionados                               |
+| ------------------- | ---------------------------------------------------- |
+| Categoria           | `/api/categories`                                    |
+| Produto             | `/api/products`                                      |
+| Cliente             | `/api/customers`                                     |
+| Venda / ItemVenda   | `/api/sales`                                         |
+| MovimentacaoEstoque | `/api/stock/movements`, `/api/stock/manual-decrease` |
+| AlertaValidade      | `/api/validity/alerts`                               |
+| RelatorioVendas     | `/api/reports/sales`                                 |
+| Usuario             | `/api/auth/login`                                    |
+
+
 ## Estrutura
 - `api/Hortifruti.Api` – API ASP.NET Core, EF Core e autenticação JWT.
 - `web/` – espaço reservado para o front (Sprint 2 em diante).
