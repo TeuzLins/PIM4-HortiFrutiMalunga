@@ -22,10 +22,10 @@ Agrupa os produtos (ex: Frutas, Hortaliças).
 
 - Produto
 Contém informações comerciais e de estoque:
-- Preço
-- Unidade de medida
-- Estoque mínimo
-- Vínculo com categoria
+Preço
+Unidade de medida
+Estoque mínimo
+Vínculo com categoria
 
 - Cliente
 Utilizado no registro das vendas.
@@ -36,16 +36,16 @@ Possui data, status e valor total.
 
 - ItemVenda
 Relaciona a venda aos produtos vendidos, contendo:
-- Quantidade
-- Preço unitário
-- Subtotal
+Quantidade
+Preço unitário
+Subtotal
 
 - MovimentacaoEstoque
 Registra todas as alterações no estoque:
-- Entrada
-- Saída por venda
-- Baixa manual
-- Ajuste
+Entrada
+Saída por venda
+Baixa manual
+Ajuste
 
 - AlertaValidade
 Representa os alertas automáticos de produtos próximos do vencimento.
