@@ -1,5 +1,5 @@
 ﻿# Hortifruti Malunga – API
-<img width="1536" height="1024" alt="Hortifruti-malunga" src="https://github.com/user-attachments/assets/b58cefa0-6ae6-4466-8bae-ffddebf44580" />
+<img width="1000" height="600" alt="Hortifruti-malunga" src="https://github.com/user-attachments/assets/b58cefa0-6ae6-4466-8bae-ffddebf44580" />
 
 
 
