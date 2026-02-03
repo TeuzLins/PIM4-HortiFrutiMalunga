@@ -1,4 +1,5 @@
 ﻿# Hortifruti Malunga – API
+<img width="1170" height="387" alt="image" src="https://github.com/user-attachments/assets/81c05957-7d94-450c-97a6-caecd274ada3" />
 
 Projeto acadêmico (PIM IV) em C# / ASP.NET Core. A API expõe os recursos do hortifruti para ser consumida pelo front Angular (próximas sprints).
 
