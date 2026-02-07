@@ -7,7 +7,8 @@
 
 ## Diagrama de Classes
 O diagrama abaixo representa o modelo de domínio do sistema, construído a partir dos casos de uso (cadastros, vendas, estoque, validade e relatórios).
-<img width="1536" height="1024" alt="diagrama-de-classe" src="https://github.com/user-attachments/assets/ba25a72b-d139-4467-85e0-99967c460a1c" />
+<img width="1536" height="1024" alt="Hortifruti-Malunga" src="https://github.com/user-attachments/assets/f6e2e362-c6d9-4dec-9897-8833b07410e7" />
+
 
 
 Ele descreve as principais entidades da aplicação e seus relacionamentos.
